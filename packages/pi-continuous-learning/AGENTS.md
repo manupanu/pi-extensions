@@ -37,7 +37,7 @@ npm run build                   # compile to dist/
 - Use strict TypeScript (`strict: true`)
 - Keep files under 400 lines, functions under 50 lines
 - Use TypeBox for runtime validation at boundaries (it is a peer dependency)
-- Use StringEnum from `@mariozechner/pi-ai` for string enums in tool schemas (not Type.Union/Type.Literal)
+- Use StringEnum from `@earendil-works/pi-ai` for string enums in tool schemas (not Type.Union/Type.Literal)
 - No hardcoded values - use constants in `config.ts`
 - Prefer immutability - create new objects, never mutate existing ones
 

@@ -9,8 +9,8 @@
 import type {
   ExtensionAPI,
   ExtensionCommandContext,
-} from "@mariozechner/pi-coding-agent";
-import { loadSkills } from "@mariozechner/pi-coding-agent";
+} from "@earendil-works/pi-coding-agent";
+import { loadSkills } from "@earendil-works/pi-coding-agent";
 
 import { loadConfig } from "./config.js";
 import { detectProject } from "./project.js";

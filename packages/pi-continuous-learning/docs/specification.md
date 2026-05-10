@@ -99,9 +99,9 @@ Published as a pi-package with:
     "extensions": ["src/index.ts"]
   },
   "peerDependencies": {
-    "@mariozechner/pi-coding-agent": "*",
-    "@mariozechner/pi-ai": "*",
-    "@mariozechner/pi-tui": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-tui": "*",
     "@sinclair/typebox": "*"
   }
 }
@@ -631,7 +631,7 @@ Defaults are used when config file is absent. The extension reads config on `ses
 ## Extension Entry Point (`index.ts`)
 
 ```typescript
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 
 export default function (pi: ExtensionAPI) {
   // 1. Register event handlers for observation

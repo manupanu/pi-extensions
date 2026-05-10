@@ -29,7 +29,7 @@ The system forms a closed feedback loop: instincts are injected into the system 
 **Acceptance Criteria:**
 
 - [ ] `package.json` exists with `name: "pi-continuous-learning"`, `keywords: ["pi-package"]`, and `pi.extensions: ["src/index.ts"]`
-- [ ] `peerDependencies` include `@mariozechner/pi-coding-agent`, `@mariozechner/pi-ai`, `@mariozechner/pi-tui`, `@sinclair/typebox`
+- [ ] `peerDependencies` include `@earendil-works/pi-coding-agent`, `@earendil-works/pi-ai`, `@earendil-works/pi-tui`, `@sinclair/typebox`
 - [ ] `tsconfig.json` has `strict: true`
 - [ ] `vitest.config.ts` is configured
 - [ ] ESLint is configured
